@@ -27,7 +27,7 @@ justify-self: start;
   text-decoration: none;
 }
 
-.header__link_active{
+.header__link_active {
 text-decoration: underline;
 white-space: nowrap;
 }
