@@ -54,7 +54,8 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   min-height: 754px;
   margin: auto;
   background: url(../images/cover.jpg);
@@ -203,8 +204,11 @@
 }
 
 .card {
+  padding: 50px 40px;
   position: relative;
   display: flex;
+  flex-direction: column;
+  justify-content: end;
   width: 430px;
   height: 100%;
   background-repeat: no-repeat;
@@ -226,7 +230,6 @@
 
 .card__title {
   z-index: 1;
-  padding: 50px 40px 0 40px;
   color: #fff;
   font-family: "Raleway", "Helvetica", sans-serif;
   font-weight: 700;
@@ -238,16 +241,13 @@
 }
 
 .card__text {
-  position: absolute;
-  right: 40px;
-  bottom: 50px;
-  left: 40px;
   color: #fff;
   font-family: "Raleway", "Helvetica", sans-serif;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
   line-height: 120%;
+  margin-top: auto;
 }
 
 .lots__look-more-link {
