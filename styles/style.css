@@ -241,6 +241,7 @@
 }
 
 .card__text {
+  z-index: 1;
   color: #fff;
   font-family: "Raleway", "Helvetica", sans-serif;
   font-weight: 400;
